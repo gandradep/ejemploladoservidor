@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  each lugar in restaurant
+    h4
+        a(href="/lugar")=lugar.nombre
+  
+  
